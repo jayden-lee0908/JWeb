@@ -10,26 +10,26 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src="images/facial-image.jpg"
               text="Utilize face recognition to auto playout songs matching the mood"
               label='Projects'
               path='/projects'
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="Utilize face recognition to auto playout songs matching the mood"
+              src="images/datamatch.png"
+              text="Build a survey-based matchmaking service platform for students at 50+ Colleges. Generated 30k matches in 2023."
+              label='Projects'
+              path='/projects'
+            />
+            <CardItem
+              src='images/finance.jpeg'
+              text='Stock Market Analysis'
               label='Projects'
               path='/projects'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/projects'
-            />
-            <CardItem
+            {/* <CardItem
               src='images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
@@ -40,7 +40,7 @@ function Cards() {
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path='/projects'
-            />
+            /> */}
           </ul>
         </div>
       </div>
