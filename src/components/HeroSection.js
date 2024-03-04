@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-3.mp4'
-      autoPlay loop muted />
-      <h1>ADVENTURE</h1>
-      <p>What you wating?</p>
+        autoPlay loop muted playsinline/>
+      <h1>Jayden's Web</h1>
+      <p>Scroll to find more!</p>
       <div className="hero-btns">
         <Button 
           className='btns' 
@@ -21,7 +21,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--Primary'
           buttonSize='btn--large'>
-          WATCH TRAILER <i className='far fa-play-circle'/>
+          Favorate song <i className='far fa-play-circle'/>
         </Button>
       </div>
     </div>
