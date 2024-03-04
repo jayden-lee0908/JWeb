@@ -1,5 +1,5 @@
 video {
-  position: absolute;
+  position: fixed;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -8,6 +8,7 @@ video {
   /* Ensure video is in the background */
   object-fit: cover;
   /* Cover the container without losing aspect ratio */
+  overflow: hidden;
 } 
 
 .hero-container {

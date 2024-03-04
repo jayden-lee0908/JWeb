@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-3.mp4'
-        autoPlay loop muted playsinline/>
+        autoPlay loop muted playsInline/>
       <h1>Jayden's Web</h1>
       <p>Scroll to find more!</p>
       <div className="hero-btns">
